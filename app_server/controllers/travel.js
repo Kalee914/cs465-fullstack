@@ -1,8 +1,7 @@
-/* Get travel view*/
-const travel= (req, res) => {
-    res.render ('travel',{title:'Travlr Getway'});
+// Get travel view
+const travel = (req, res) => {
+    console.log("Travel route accessed");
+    res.render('travel', { title: 'Travlr Getaway' });
 };
 
-module.exports ={
-    travel
-};
+module.exports = { travel };
