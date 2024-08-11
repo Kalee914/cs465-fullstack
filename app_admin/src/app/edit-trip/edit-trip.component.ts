@@ -14,7 +14,7 @@ import { TripDataService } from '../services/trip-data.service';
   standalone: true,
   imports: [CommonModule, ReactiveFormsModule],
   templateUrl: './edit-trip.component.html',
-  styleUrls: ['./edit-trip.component.css'], // Fixed typo: styleUrl to styleUrls
+  styleUrls: ['./edit-trip.component.css'], 
 })
 export class EditTripComponent implements OnInit {
   editForm!: FormGroup;
