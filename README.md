@@ -28,10 +28,10 @@ There are many benefits that come from reusable user interface UI components. To
 
 Methods for request and retrieval in APIs involve various HTTP methods, which correspond to CRUD (Create, Read, Update, Delete) operations for managing data:
 
-GET: Retrieve resource  
 POST: Create a new resource  
+GET: Retrieve resource  
 PUT: Update an existing resource  
-DELETE: Remove resource   
+DELETE: Delete resource   
 
 Endpoints are specific routes (URLs) in the application that correspond to these operations. For Example: /api/trips (lists all trips),  api/trips/trips_code (provides details for a specific trip based on the trip code to allow updates or deletion). Testing these endpoints ensures that they return the correct responses and handle data properly. I used Postman, MongoDB compass, and manual testing to verify the endpoint functionally. 
 In terms of security, we used JSON Web Token (JWT) to authenticate the users. The API Gateway validates the JWT and routes HTTP requests based on the user's authentication status. This approach helps secure the application by ensuring only authenticated users can access certain resources or perform specific actions. 
