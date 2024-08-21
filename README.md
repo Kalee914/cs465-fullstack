@@ -3,7 +3,8 @@ CS-465 Full Stack Development with MEAN
 # Architecture
 •	Compare and contrast the types of frontend development you used in your full stack project, including Express HTML, JavaScript, and the single-page application (SPA).
 
-Express HTML is a frontend delivered by the backend, serving HTML files as a response to client requests. The Express HTML in this project is rendered on the server using handlebars, processes any necessary data, and then sends it to the client to load. On the other hand, Angular SPA is a frontend framework that manages the user interface on the client side. The HTML templates are rendered directly in the browser—Angular – two-way data binding updates any changes in the data automatically in real-time. 
+Express HTML is a frontend delivered by the backend, serving HTML files as a response to client requests. The Express HTML in this project is rendered on the server using handlebars, processes any necessary data, and then sends it to the client to load. On the other hand, Angular SPA is a frontend framework that manages the user interface on the client side. The HTML templates are rendered directly in the browser—Angular – two-way data binding updates any changes in the data automatically in real-time.   
+
 •	Why did the backend use a NoSQL MongoDB database?
 
 Mongo DB stores data in BSON document (JSON) format, making it fit for JavaScript-based applications. MongoDB is a document-oriented NoSQL database that supports horizontal scaling, making it highly scalable. Additionally, MongoDB is schema-less, allowing flexible data structure. 
